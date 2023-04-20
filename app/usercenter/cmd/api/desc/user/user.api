@@ -1,6 +1,6 @@
 syntax = "v1"
 
-info(
+info (
     title: "用户实例"
     desc: "用户实例"
     author: "pilipeng"
@@ -32,12 +32,12 @@ type (
 )
 
 type (
-    LoginReq{
+    LoginReq {
         Mobile string `json:"mobile"`
-        Password string `json:"password"    `
+        Password string `json:"password"`
     }
     LoginResp {
-        AccessToken string  `json:"accessToken"` 
+        AccessToken string  `json:"accessToken"`
         AccessExpire int64 `json:"accessExpire"`
         RefreshAfter int64 `json:"refreshAfter"`
     }
