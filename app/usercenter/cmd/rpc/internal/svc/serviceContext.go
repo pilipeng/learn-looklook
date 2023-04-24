@@ -1,6 +1,6 @@
 package svc
 
-import "usercenter/cmd/rpc/internal/config"
+import "learn-looklook/app/usercenter/cmd/rpc/internal/config"
 
 type ServiceContext struct {
 	Config config.Config

@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"cmd/rpc/internal/logic"
-	"cmd/rpc/internal/svc"
-	"cmd/rpc/pb"
+	"learn-looklook/app/usercenter/cmd/rpc/internal/logic"
+	"learn-looklook/app/usercenter/cmd/rpc/internal/svc"
+	"learn-looklook/app/usercenter/cmd/rpc/pb"
 )
 
 type UsercenterServer struct {

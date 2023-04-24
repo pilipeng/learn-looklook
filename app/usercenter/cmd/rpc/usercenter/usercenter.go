@@ -6,7 +6,7 @@ package usercenter
 import (
 	"context"
 
-	"cmd/rpc/pb"
+	"learn-looklook/app/usercenter/cmd/rpc/pb"
 
 	"github.com/zeromicro/go-zero/zrpc"
 	"google.golang.org/grpc"

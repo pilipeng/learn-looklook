@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 
-	"usercenter/cmd/rpc/internal/config"
-	"usercenter/cmd/rpc/internal/server"
-	"usercenter/cmd/rpc/internal/svc"
-	"usercenter/cmd/rpc/pb"
+	"learn-looklook/app/usercenter/cmd/rpc/internal/config"
+	"learn-looklook/app/usercenter/cmd/rpc/internal/server"
+	"learn-looklook/app/usercenter/cmd/rpc/internal/svc"
+	"learn-looklook/app/usercenter/cmd/rpc/pb"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/core/service"
