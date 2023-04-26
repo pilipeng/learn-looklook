@@ -4,8 +4,8 @@ package handler
 import (
 	"net/http"
 
-	user "api/internal/handler/user"
-	"api/internal/svc"
+	user "learn-looklook/app/usercenter/cmd/api/internal/handler/user"
+	"learn-looklook/app/usercenter/cmd/api/internal/svc"
 
 	"github.com/zeromicro/go-zero/rest"
 )

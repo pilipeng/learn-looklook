@@ -3,10 +3,10 @@ package main
 import (
 	"flag"
 	"fmt"
+	"learn-looklook/app/usercenter/cmd/api/internal/config"
 
-	"api/internal/config"
-	"api/internal/handler"
-	"api/internal/svc"
+	"learn-looklook/app/usercenter/cmd/api/internal/handler"
+	"learn-looklook/app/usercenter/cmd/api/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/rest"

@@ -3,10 +3,10 @@ package user
 import (
 	"net/http"
 
-	"api/internal/logic/user"
-	"api/internal/svc"
-	"api/internal/types"
 	"github.com/zeromicro/go-zero/rest/httpx"
+	"learn-looklook/app/usercenter/cmd/api/internal/logic/user"
+	"learn-looklook/app/usercenter/cmd/api/internal/svc"
+	"learn-looklook/app/usercenter/cmd/api/internal/types"
 )
 
 func RegisterHandler(svcCtx *svc.ServiceContext) http.HandlerFunc {

@@ -1,6 +1,19 @@
-Name: usercenter.rpc
-ListenOn: 0.0.0.0:8080
-Etcd:
-  Hosts:
-  - 127.0.0.1:2379
-  Key: usercenter.rpc
+Name: usercenter-rpc
+ListenOn: 0.0.0.0:2004
+Mode: dev
+#Etcd:
+#  Hosts:
+#  - 127.0.0.1:2379
+#  Key: usercenter.rpc
+
+Log:
+  ServiceName: usercenter-rpc
+  Level: error
+
+Redis:
+  Host: redis:6379
+  type: node
+  pass: 123456
+
+Db:
+  DataSource: root:123456@tcp(mysql:3306)/looklook_usercenter?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
